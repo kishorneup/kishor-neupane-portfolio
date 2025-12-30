@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishor Neupane | Founder-President, KS Foundation</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
+        a { text-decoration: none; color: #007bff; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+        header { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://cdn.dribbble.com/userupload/45578578/file/66cd7b8954ecbaec991c90de8ff3aef0.jpg'); background-size: cover; background-position: center; color: #fff; text-align: center; padding: 180px 20px; }
+        header h1 { font-size: 3.8rem; margin-bottom: 10px; }
+        header p { font-size: 1.8rem; margin-bottom: 30px; }
+        .btn { display: inline-block; background: #28a745; color: #fff; padding: 14px 35px; border-radius: 5px; transition: background 0.3s; }
+        .btn:hover { background: #218838; }
+
+        nav { background: #343a40; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        nav ul { list-style: none; display: flex; justify-content: center; padding: 15px 0; }
+        nav ul li { margin: 0 25px; }
+        nav ul li a { color: #fff; font-weight: bold; font-size: 1.1rem; transition: color 0.3s; }
+        nav ul li a:hover { color: #28a745; }
+
+        section { padding: 90px 0; background: #fff; margin: 30px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        section h2 { text-align: center; font-size: 2.8rem; margin-bottom: 50px; color: #28a745; }
+        .about-content { display: flex; align-items: center; flex-wrap: wrap; gap: 40px; max-width: 1000px; margin: 0 auto; }
+        .about-img { border-radius: 50%; width: 300px; height: 300px; object-fit: cover; border: 5px solid #28a745; }
+        .about-text { flex: 1; min-width: 300px; font-size: 1.15rem; }
+
+        .initiatives-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; text-align: center; }
+        .initiative-item { background: #e9f7ef; padding: 30px; border-radius: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+
+        .timeline { max-width: 900px; margin: 0 auto; }
+        .entry { margin-bottom: 50px; padding-left: 30px; border-left: 4px solid #28a745; position: relative; }
+        .entry::before { content: ''; position: absolute; left: -12px; top: 0; width: 20px; height: 20px; background: #28a745; border-radius: 50%; }
+        .entry h3 { color: #28a745; }
+
+        .contact form { max-width: 700px; margin: 0 auto; display: grid; gap: 20px; }
+        .contact input, .contact textarea { padding: 15px; border: 1px solid #ccc; border-radius: 8px; width: 100%; font-size: 1rem; }
+        .contact button { background: #28a745; color: #fff; padding: 15px; border: none; cursor: pointer; font-size: 1.2rem; border-radius: 8px; }
+
+        footer { background: #343a40; color: #fff; text-align: center; padding: 40px; }
+        .social a { color: #fff; margin: 0 15px; font-size: 1.8rem; }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#initiatives">Initiatives</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <h1>Kishor Neupane</h1>
+        <p>Founder & President, KS Foundation</p>
+        <p>Dedicated to Social Work & Community Development in Nepal</p>
+        <a href="#contact" class="btn">Support Our Cause</a>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="https://media.licdn.com/dms/image/v2/D4E22AQGUjxOjwpOXnA/feedshare-shrink_800/feedshare-shrink_800/0/1709226002754?e=2147483647&v=beta&t=aQGiY2IX7tvCcdCF62uuWAgWAiak2el-lYHlQrJO5qI" alt="Kishor Neupane" class="about-img">
+                <div class="about-text">
+                    <p>I am Kishor Neupane, Founder and President of KS Foundation, a non-profit organization committed to uplifting underprivileged communities in Nepal through education, health, and social welfare programs.</p>
+                    <p>With a passion for creating lasting positive change, I lead initiatives that empower individuals and strengthen communities. KS Foundation focuses on sustainable development and direct impact on the lives of those in need.</p>
+                    <p>Together, we build a better future for Nepal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="initiatives">
+        <div class="container">
+            <h2>Our Initiatives</h2>
+            <div class="initiatives-grid">
+                <div class="initiative-item">
+                    <h3>Education Support</h3>
+                    <p>Providing scholarships, school supplies, and infrastructure improvements for children in rural areas.</p>
+                </div>
+                <div class="initiative-item">
+                    <h3>Health Camps</h3>
+                    <p>Organizing free medical check-ups and awareness programs in underserved communities.</p>
+                </div>
+                <div class="initiative-item">
+                    <h3>Community Empowerment</h3>
+                    <p>Skill development workshops and support for women's groups and youth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact">
+        <div class="container">
+            <h2>Community Impact</h2>
+            <div class="timeline">
+                <div class="entry">
+                    <h3>Recent Health Camp</h3>
+                    <p><em>2025</em> — Served 500+ beneficiaries with free medical services.</p>
+                </div>
+                <div class="entry">
+                    <h3>Education Drive</h3>
+                    <p><em>2024-2025</em> — Distributed books and uniforms to 300 students.</p>
+                </div>
+                <!-- Add more real achievements here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get Involved</h2>
+            <form action="https://formspree.io/f/your-email-here" method="POST"> <!-- Replace with your email or Formspree link -->
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="How would you like to contribute or get more info?" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p style="text-align:center; margin-top:40px; font-size:1.2rem;">
+                Email: contact@ksfoundation.org.np<br>
+                Facebook: <a href="https://www.facebook.com/kishor.neupane.5494">Kishor Neupane</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kishor Neupane | KS Foundation. All rights reserved.</p>
+        <div class="social">
+            <a href="https://www.facebook.com/kishor.neupane.5494" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://np.linkedin.com/in/kishor-neupane-9b9812299" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
